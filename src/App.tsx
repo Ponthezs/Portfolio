@@ -1,13 +1,13 @@
 
 
-const Home = () => {
+const App = () => {
   
 
   return (
     <>
-      Home
+      App
     </>
   )
 }
 
-export default Home
+export default App
