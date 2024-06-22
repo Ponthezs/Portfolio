@@ -24,7 +24,7 @@ const Hero = () => {
     return (
       <>
           <StyledHero>
-            <Container>
+            <Container maxWidth="lg">
               <Grid container spacing={2}>
                 <Grid item xs={12} md={4}>
                   <StyledImg src={Avatar} />
@@ -32,14 +32,14 @@ const Hero = () => {
                 <Grid item xs={12} md={8}>
                   <Typography color="primary" variant="h1" textAlign="center">Felipe Pontes</Typography>
                   <Typography color="primary" variant="h2" textAlign="center">Student Software Engineering</Typography>
-                  <Grid container>
-                    <Grid item xs={12} md={6}>
+                  <Grid container display="flex" justifyContent="center">
+                    <Grid item xs={12} md={4} display="flex" justifyContent="center">
                       <Button>
                         <DownloadIcon/>
                         Download CV
                       </Button>
                     </Grid>
-                    <Grid item xs={12} md={6}>
+                    <Grid item xs={12} md={4} display="flex" justifyContent="center">
                       <Button>
                         <AlternateEmailIcon/>
                         Contact me
